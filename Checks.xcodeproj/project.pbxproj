@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F90C91A71A748F4B00195BDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90C91A61A748F4B00195BDA /* AppDelegate.swift */; };
-		F90C91A91A748F4B00195BDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90C91A81A748F4B00195BDA /* ViewController.swift */; };
 		F90C91AC1A748F4B00195BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90C91AA1A748F4B00195BDA /* Main.storyboard */; };
 		F90C91AE1A748F4B00195BDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F90C91AD1A748F4B00195BDA /* Images.xcassets */; };
 		F90C91B11A748F4B00195BDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90C91AF1A748F4B00195BDA /* LaunchScreen.xib */; };
 		F90C91BD1A748F4B00195BDA /* ChecksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90C91BC1A748F4B00195BDA /* ChecksTests.swift */; };
+		F90C91C71A748F8300195BDA /* ChecklistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90C91C61A748F8300195BDA /* ChecklistTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		F90C91A11A748F4B00195BDA /* Checks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90C91A51A748F4B00195BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F90C91A61A748F4B00195BDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F90C91A81A748F4B00195BDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F90C91AB1A748F4B00195BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F90C91AD1A748F4B00195BDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F90C91B01A748F4B00195BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F90C91B61A748F4B00195BDA /* ChecksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChecksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90C91BB1A748F4B00195BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F90C91BC1A748F4B00195BDA /* ChecksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecksTests.swift; sourceTree = "<group>"; };
+		F90C91C61A748F8300195BDA /* ChecklistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				F90C91A61A748F4B00195BDA /* AppDelegate.swift */,
-				F90C91A81A748F4B00195BDA /* ViewController.swift */,
 				F90C91AA1A748F4B00195BDA /* Main.storyboard */,
+				F90C91C61A748F8300195BDA /* ChecklistTableViewController.swift */,
 				F90C91AD1A748F4B00195BDA /* Images.xcassets */,
 				F90C91AF1A748F4B00195BDA /* LaunchScreen.xib */,
 				F90C91A41A748F4B00195BDA /* Supporting Files */,
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F90C91A91A748F4B00195BDA /* ViewController.swift in Sources */,
+				F90C91C71A748F8300195BDA /* ChecklistTableViewController.swift in Sources */,
 				F90C91A71A748F4B00195BDA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
